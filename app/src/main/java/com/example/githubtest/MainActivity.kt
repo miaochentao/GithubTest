@@ -6,8 +6,10 @@ import android.os.Bundle
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        println("1234")
         super.onCreate(savedInstanceState)
-        print("MainActivity project")
+        print("MainActivity abc")
+        print("cbd")
         var ui = Utils()
         ui.aa()
 
